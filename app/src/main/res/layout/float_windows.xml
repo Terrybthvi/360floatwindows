@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:id="@+id/big_windows"
+    android:background="@drawable/small"
+    android:layout_height="200dp">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/close"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="8dp"
+    android:text="关闭悬浮窗"/>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:text="返回"
+        android:layout_weight="1" />
+</RelativeLayout>
